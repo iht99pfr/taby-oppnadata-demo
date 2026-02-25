@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const ENTRYSCAPE_URL = process.env.NEXT_PUBLIC_ENTRYSCAPE_URL || "http://localhost:8080";
-const ENTRYSTORE_URL = process.env.NEXT_PUBLIC_ENTRYSTORE_URL || "http://localhost:8181";
+const ENTRYSCAPE_URL = process.env.NEXT_PUBLIC_ENTRYSCAPE_URL || "https://california-educated-panels-molecules.trycloudflare.com";
+const ENTRYSTORE_URL = process.env.NEXT_PUBLIC_ENTRYSTORE_URL || "https://malpractice-drugs-timber-holding.trycloudflare.com";
 
 export default function IntranatPage() {
   return (
